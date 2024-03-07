@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/doodlee"
+    tools:context=".AdminHomeActivity">
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_marginTop="200dp"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:layout_marginLeft="50dp"
+        android:id="@+id/viewCustomers"
+        android:text="View Pet Owners"></Button>
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:layout_marginLeft="50dp"
+        android:id="@+id/viewDoctors"
+        android:layout_below="@id/viewCustomers"
+        android:text="View Doctors"></Button>
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:layout_marginLeft="50dp"
+        android:id="@+id/viewPets"
+        android:layout_below="@id/viewDoctors"
+        android:text="View Pets"></Button>
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_marginLeft="50dp"
+        android:textAllCaps="false"
+        android:layout_height="wrap_content"
+        android:id="@+id/viewTreatments"
+        android:layout_below="@id/viewPets"
+        android:text="View Treatments"></Button>
+
+    <!--<Button
+        android:layout_width="300dp"
+        android:layout_marginLeft="50dp"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:id="@+id/viewProducts"
+        android:layout_below="@id/viewTreatments"
+        android:text="View Products"></Button>
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_marginLeft="50dp"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:id="@+id/viewEvents"
+        android:layout_below="@id/viewProducts"
+        android:text="View Events"></Button>
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_marginLeft="50dp"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:id="@+id/viewPosts"
+        android:layout_below="@id/viewEvents"
+        android:text="View Posts"></Button>-->
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_marginLeft="50dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/viewlogout"
+        android:textAllCaps="false"
+        android:layout_below="@id/viewTreatments"
+        android:text="Logout"></Button>
+
+
+
+
+
+</RelativeLayout>

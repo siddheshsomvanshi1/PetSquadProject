@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/doodlee"
+    tools:context=".BookDoctorAppointment">
+
+
+    <TextView android:id="@+id/ntextPetName"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:text="Select Pet"/>
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/nspin_pet"
+        android:layout_below="@id/ntextPetName"
+        android:layout_marginTop="20dp"></Spinner>
+
+    <TextView android:id="@+id/ntextDoctorName"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_width="match_parent"
+        android:text="Select Doctor"
+        android:layout_below="@+id/nspin_pet"/>
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/nspin_doctor"
+        android:layout_below="@id/ntextDoctorName"
+        android:layout_marginTop="20dp"></Spinner>
+
+
+
+
+    <TextView android:id="@+id/ntextTime"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="Select Time"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_below="@id/nspin_doctor"
+        android:layout_marginTop="20dp"/>
+
+    <Spinner
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:id="@+id/nspinTime"
+        android:layout_below="@id/ntextTime"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:id="@+id/nbtnBookDoctor"
+        android:text="Book Doctor Appointment"
+        android:layout_below="@id/nspinTime"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:id="@+id/nbtnViewDoctor"
+        android:text="View Doctor Appointments"
+        android:layout_below="@id/nbtnBookDoctor"/>
+
+
+    <!--
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/list_doctors"></ListView>
+            -->
+
+</RelativeLayout>

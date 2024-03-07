@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/doodlee"
+    tools:context=".AddTreatment">
+
+
+    <EditText
+        android:id="@+id/treatName"
+        android:layout_width="299dp"
+        android:layout_height="48dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="178dp"
+        android:backgroundTint="@color/black"
+        android:drawableLeft="@drawable/ic_baseline_person"
+        android:ems="10"
+        android:hint="   Enter Name"
+        android:inputType="textPersonName"
+        android:textColorHint="@color/black" />
+
+    <EditText
+        android:id="@+id/treatDesc"
+        android:layout_width="299dp"
+        android:layout_height="48dp"
+        android:layout_below="@+id/treatName"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/black"
+        android:digits="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890_-!@#$%^*()"
+        android:drawableLeft="@drawable/ic_baseline_age"
+        android:ems="10"
+        android:hint="   Enter Description"
+        android:inputType="textPersonName"
+        android:maxLength="10"
+
+        android:textColorHint="@color/black" />
+
+    <EditText
+        android:id="@+id/treatcost"
+        android:layout_width="299dp"
+        android:layout_height="54dp"
+        android:layout_below="@+id/treatDesc"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="25dp"
+        android:backgroundTint="@color/black"
+        android:digits="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890_-!@#$%^*()"
+        android:drawableLeft="@drawable/ic_baseline_library_books_24"
+        android:ems="10"
+        android:hint="   Enter Cost"
+        android:maxLength="10"
+
+        android:textColorHint="@color/black" />
+
+    <Button
+        android:id="@+id/addbutton"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/treatcost"
+        android:layout_alignStart="@+id/treatcost"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="34dp"
+        android:text="Add Treatment"
+        android:textAllCaps="false"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/readbutton"
+        android:layout_width="272dp"
+        android:layout_height="56dp"
+        android:layout_below="@+id/addbutton"
+        android:layout_alignStart="@+id/addbutton"
+        android:layout_alignEnd="@+id/addbutton"
+        android:layout_marginStart="2dp"
+        android:layout_marginEnd="-2dp"
+        android:text="Read Treatment"
+        android:textAllCaps="false"
+        android:textSize="24sp" />
+
+
+    <Button
+        android:id="@+id/idBtnUpdate"
+        android:layout_width="276dp"
+        android:layout_height="56dp"
+        android:layout_below="@+id/readbutton"
+        android:layout_alignStart="@+id/readbutton"
+        android:layout_alignEnd="@+id/readbutton"
+        android:layout_marginStart="-2dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="10dp"
+        android:text="Update Treatment"
+        android:textAllCaps="false"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/idBtnDelete"
+        android:layout_width="271dp"
+        android:layout_height="58dp"
+        android:layout_below="@+id/idBtnUpdate"
+        android:layout_alignStart="@+id/idBtnUpdate"
+        android:layout_alignEnd="@+id/idBtnUpdate"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="-8dp"
+        android:layout_marginEnd="-2dp"
+        android:layout_marginBottom="10dp"
+        android:text="Delete Treatment"
+        android:textAllCaps="false"
+        android:textSize="24sp" />
+
+
+</RelativeLayout>

@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_img"
+    android:animateLayoutChanges="false">
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="297dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="164dp"
+        android:layout_marginEnd="43dp"
+        android:text="Who Are You??"
+        android:textColor="#6a0dad"
+        android:textSize="35sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/doctorb"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/textView2"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_alignEnd="@+id/textView2"
+        android:layout_marginStart="45dp"
+        android:layout_marginLeft="125dp"
+        android:layout_marginTop="92dp"
+        android:layout_marginEnd="61dp"
+        android:text="Veterinarian" />
+
+    <Button
+        android:id="@+id/ownerb"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/doctorb"
+        android:layout_alignStart="@+id/doctorb"
+        android:layout_alignEnd="@+id/doctorb"
+
+        android:layout_marginStart="-1dp"
+        android:layout_marginLeft="125dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="1dp"
+        android:text="Pet Owner" />
+
+    <!--<Button
+        android:id="@+id/shopb"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/ownerb"
+        android:layout_alignStart="@+id/ownerb"
+        android:layout_alignEnd="@+id/ownerb"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="125dp"
+        android:layout_marginEnd="0dp"
+        android:text="Pet Shop" />-->
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="311dp"
+        android:layout_height="73dp"
+        android:layout_below="@+id/ownerb"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="93dp"
+        android:layout_marginLeft="125dp"
+        android:layout_marginTop="31dp"
+        android:layout_marginEnd="7dp"
+        android:layout_marginBottom="170dp"
+        android:paddingTop="10dp"
+        android:text="Are you already a member Sign In?"
+        android:textColor="#6a0dad"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+
+    <!--
+        <RadioGroup
+            android:id="@+id/radioGroup"
+            android:layout_width="140dp"
+            android:layout_height="302dp"
+            android:layout_centerInParent="true"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onClickedVeterinarian"
+                android:text="Veterinarian" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onClickedOwner"
+                android:text="Pet Owner" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onClickedShop"
+                android:text="Pet Shop" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onClickedSpa"
+                android:text="Pet Spa" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onClickedTrainer"
+                android:text="Pet Trainer" />
+        </RadioGroup>
+        -->
+    <!--
+        <LinearLayout
+            android:id="@+id/linear1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/radioButtondoc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Veterinarian" />
+
+            <RadioButton
+                android:id="@+id/radioButtonowner"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Pet Owner" />
+
+            <RadioButton
+                android:id="@+id/radioButtonshop"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Pet Shop" />
+
+            <RadioButton
+                android:id="@+id/radioButtonspa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Pet Spa" />
+
+            <RadioButton
+                android:id="@+id/radioButtontrainer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Trainer" />
+
+        </LinearLayout>
+
+    -->
+</RelativeLayout>

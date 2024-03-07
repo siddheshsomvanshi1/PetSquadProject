@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/doodlee"
+    tools:context=".BookDoctorAppointment">
+
+
+    <TextView android:id="@+id/textPetName"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:text="Select Pet"/>
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spin_pet"
+        android:layout_below="@id/textPetName"
+        android:layout_marginTop="20dp"></Spinner>
+
+    <TextView android:id="@+id/textDoctorName"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_width="match_parent"
+        android:text="Select Doctor"
+        android:layout_below="@+id/spin_pet"/>
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spin_doctor"
+        android:layout_below="@id/textDoctorName"
+        android:layout_marginTop="20dp"></Spinner>
+
+    <TextView android:id="@+id/textDate"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:textStyle="bold"
+        android:text="Select Date"
+        android:textSize="18sp"
+        android:layout_below="@id/spin_doctor"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:id="@+id/doctorAppoint"
+        android:text="Go to Calender"
+        android:layout_below="@id/textDate"/>
+
+    <TextView android:id="@+id/textTime"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="Select Time"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_below="@id/doctorAppoint"
+        android:layout_marginTop="20dp"/>
+
+    <Spinner
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:id="@+id/spinTime"
+        android:layout_below="@id/textTime"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:id="@+id/btnBookDoctor"
+        android:text="Book Doctor Appointment"
+        android:layout_below="@id/spinTime"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:id="@+id/btnViewDoctor"
+        android:text="View Doctor Appointments"
+        android:layout_below="@id/btnBookDoctor"/>
+
+
+<!--
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/list_doctors"></ListView>
+        -->
+
+</RelativeLayout>

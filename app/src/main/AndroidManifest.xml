@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.petsquad">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Petsquad">
+        <activity
+            android:name=".BookAppoint"
+            android:exported="false" />
+        <activity
+            android:name=".SelecrDate"
+            android:exported="false" />
+        <activity
+            android:name=".ViewPost"
+            android:exported="false" />
+        <activity
+            android:name=".ManagePost"
+            android:exported="false" />
+        <activity
+            android:name=".ViewEvent"
+            android:exported="false" />
+        <activity
+            android:name=".ManageEvent"
+            android:exported="false" />
+        <activity
+            android:name=".ViewOwner"
+            android:exported="false" />
+        <activity
+            android:name=".ViewMyPetProfile"
+            android:exported="false" />
+        <activity
+            android:name=".ViewPetProfile"
+            android:exported="false" />
+        <activity
+            android:name=".ManagePetProfile"
+            android:exported="false" />
+        <activity
+            android:name=".AdminHomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ViewMySchedule"
+            android:exported="false" />
+        <activity
+            android:name=".ViewMyTreatment"
+            android:exported="false" />
+        <activity
+            android:name=".ViewMyProduct"
+            android:exported="false" />
+        <activity
+            android:name=".ViewCustomerDoctorAppointment"
+            android:exported="false" />
+        <activity
+            android:name=".ViewMyDoctorAppointment"
+            android:exported="false" />
+        <activity
+            android:name=".ViewCustomerProductCart"
+            android:exported="false" />
+        <activity
+            android:name=".ViewMyProductCart"
+            android:exported="false" />
+        <activity
+            android:name=".ViewProductCart"
+            android:exported="false" />
+        <activity
+            android:name=".BookProduct"
+            android:exported="false" />
+        <activity
+            android:name=".ViewShop"
+            android:exported="false" />
+        <activity
+            android:name=".ViewDoctorAppointment"
+            android:exported="false" />
+        <activity
+            android:name=".ViewDoctorSchedule"
+            android:exported="false" />
+        <activity
+            android:name=".DoctorSchedule"
+            android:exported="false" />
+        <activity
+            android:name=".BookDoctorAppointment"
+            android:exported="false" />
+        <activity
+            android:name=".ViewDoctor"
+            android:exported="false" />
+        <activity
+            android:name=".ViewProduct"
+            android:exported="false" />
+        <activity
+            android:name=".ManageProduct"
+            android:exported="false" />
+        <activity
+            android:name=".ShopHomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ViewTreatment"
+            android:exported="false" />
+        <activity
+            android:name=".SelectCalenderDate"
+            android:exported="false" />
+        <activity
+            android:name=".AddTreatment"
+            android:exported="false" />
+        <activity
+            android:name=".SignShop"
+            android:exported="false" />
+        <activity
+            android:name=".DoctorHomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PetProfile"
+            android:exported="false" />
+        <activity
+            android:name=".SignUpDoctor"
+            android:exported="false" />
+        <activity
+            android:name=".SignUpActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".WelcomeActivity"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

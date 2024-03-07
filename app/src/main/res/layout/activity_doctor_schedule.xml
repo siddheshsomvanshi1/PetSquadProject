@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DoctorSchedule"
+    android:background="@drawable/doodlee"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:id="@+id/textDays"
+        android:text="Select Day: "
+        android:layout_marginLeft="50dp"></TextView>
+
+    <Spinner android:id="@+id/spinDays"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textDays"
+        android:layout_marginLeft="50dp"></Spinner>
+
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/textStartTime"
+    android:text="Opening At: "
+        android:layout_below="@id/spinDays"
+        android:layout_marginLeft="50dp"></TextView>
+
+    <Spinner android:id="@+id/spinStartTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textStartTime"
+        android:layout_marginLeft="50dp"></Spinner>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textEndTime"
+        android:text="Closing At: "
+        android:layout_below="@id/spinDays"
+        android:layout_marginLeft="50dp"></TextView>
+
+    <Spinner android:id="@+id/spinEndTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textEndTime"
+        android:layout_marginLeft="50dp"></Spinner>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnAddSchedule"
+        android:textSize="24sp"
+        android:layout_margin="10dp"
+
+        android:layout_below="@+id/editEndTime"
+        android:text="Add Schedule"></Button>
+
+    <Button
+        android:id="@+id/btnReadSchedule"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Read Schedule"
+        android:textSize="24sp"
+        android:layout_below="@+id/btnAddSchedule"
+        />
+
+    <Button
+        android:id="@+id/btnUpdateSchedule"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Update Schedule"
+        android:textSize="24sp"
+        android:textAllCaps="false"
+        android:layout_below="@+id/btnReadSchedule"/>
+
+
+    <Button
+        android:id="@+id/btnDeleteSchedule"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Delete Schedule"
+        android:textSize="24sp"
+        android:textAllCaps="false"
+        android:layout_below="@+id/btnUpdateSchedule"/>
+
+
+</LinearLayout>

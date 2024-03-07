@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/prtprofilr"
+            android:icon="@drawable/img_2"
+            android:title="Pet Profile" />
+        <item
+            android:id="@+id/doc"
+            android:icon="@drawable/img_7"
+            android:title="Book Veternary" />
+        <item
+            android:id="@+id/spa"
+            android:icon="@drawable/img_1"
+            android:title="Book Spa" />
+
+        <item
+            android:id="@+id/shop"
+            android:icon="@drawable/img_4"
+            android:title="Buy Pet Supplies" />
+        <item
+            android:id="@+id/train"
+            android:icon="@drawable/img"
+            android:title="Book Trainer" />
+        <item
+            android:id="@+id/post"
+            android:icon="@drawable/img_4"
+            android:title="Upload Post" />
+
+    </group>
+
+</menu>

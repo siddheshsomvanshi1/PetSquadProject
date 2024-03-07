@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/doodlee"
+    tools:context=".HomeActivity">
+
+
+    <Button
+        android:id="@+id/buttonpet"
+        android:layout_width="251dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="75dp"
+        android:layout_marginTop="80dp"
+        android:textAllCaps="false"
+        android:text="Manage Pet Profile" />
+
+    <Button
+        android:id="@+id/buttonTreat"
+        android:layout_width="251dp"
+        android:textAllCaps="false"
+        android:layout_height="59dp"
+        android:layout_below="@+id/buttonpet"
+        android:layout_alignStart="@+id/buttonpet"
+        android:layout_alignEnd="@+id/buttonpet"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginEnd="0dp"
+        android:text="View Treatments" />
+
+    <Button
+        android:id="@+id/buttonDoctor"
+        android:textAllCaps="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonTreat"
+        android:layout_alignStart="@+id/buttonTreat"
+        android:layout_alignEnd="@+id/buttonTreat"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginEnd="0dp"
+        android:text="View Doctors" />
+
+    <Button
+        android:id="@+id/buttonDoctorAppointment"
+        android:layout_width="256dp"
+        android:textAllCaps="false"
+        android:layout_height="67dp"
+        android:layout_below="@+id/buttonDoctor"
+        android:layout_alignStart="@+id/buttonDoctor"
+        android:layout_alignEnd="@+id/buttonDoctor"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginEnd="0dp"
+        android:text="Book Doctor Appointment" />
+
+    <!--<Button
+        android:id="@+id/viewShop"
+        android:layout_width="244dp"
+        android:textAllCaps="false"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonDoctorAppointment"
+        android:layout_alignStart="@+id/buttonDoctorAppointment"
+        android:layout_alignEnd="@+id/buttonDoctorAppointment"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginEnd="7dp"
+        android:text="View Shop" />
+
+    <Button
+        android:id="@+id/viewProduct"
+        android:textAllCaps="false"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/viewShop"
+        android:layout_alignStart="@+id/viewShop"
+        android:layout_alignEnd="@+id/viewShop"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginEnd="-6dp"
+        android:text="View products" />
+
+    <Button
+        android:id="@+id/bookProduct"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:layout_below="@+id/viewProduct"
+        android:layout_alignStart="@+id/viewProduct"
+        android:layout_alignEnd="@+id/viewProduct"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginEnd="-1dp"
+        android:text="Book products" />
+
+
+
+
+    <Button
+        android:id="@+id/Uplodpost"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:layout_below="@+id/bookProduct"
+        android:layout_alignStart="@+id/bookProduct"
+        android:layout_alignEnd="@+id/bookProduct"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginEnd="0dp"
+        android:text="Upload Post" />
+
+    <Button
+        android:id="@+id/manageevent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Uplodpost"
+        android:layout_alignStart="@+id/Uplodpost"
+        android:layout_alignEnd="@+id/Uplodpost"
+        android:textAllCaps="false"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginEnd="0dp"
+        android:text="Manage Event" />-->
+
+    <Button
+        android:id="@+id/clogout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonDoctorAppointment"
+        android:textAllCaps="false"
+        android:layout_alignStart="@+id/buttonDoctorAppointment"
+        android:layout_alignEnd="@+id/buttonDoctorAppointment"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginEnd="0dp"
+        android:text="LogOut" />
+
+
+
+</RelativeLayout>

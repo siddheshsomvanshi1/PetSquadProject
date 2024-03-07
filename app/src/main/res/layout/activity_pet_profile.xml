@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/doodlee"
+    tools:context=".PetProfile">
+
+    <EditText
+        android:id="@+id/petname"
+        android:layout_width="299dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="128dp"
+        android:drawableLeft="@drawable/ic_baseline_person"
+        android:ems="10"
+        android:hint="   Enter Name"
+        android:textColorHint="@color/black"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/petage"
+        android:layout_width="299dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="39dp"
+        android:digits="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890_-!@#$%^*()"
+        android:drawableLeft="@drawable/ic_baseline_age"
+        android:ems="10"
+        android:textColorHint="@color/black"
+        android:hint="   Enter Age"
+        android:inputType="textPersonName"
+        android:maxLength="10"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/petname" />
+
+    <EditText
+        android:id="@+id/petheight"
+        android:layout_width="299dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="39dp"
+        android:digits="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890_-!@#$%^*()"
+        android:drawableLeft="@drawable/ic_baseline_library_books_24"
+        android:ems="10"
+        android:hint="   Enter Height"
+        android:textColorHint="@color/black"
+        android:maxLength="10"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/petage" />
+
+    <EditText
+        android:id="@+id/petweight"
+        android:layout_width="299dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="39dp"
+        android:digits="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890_-!@#$%^*()"
+        android:drawableLeft="@drawable/ic_baseline_explicit_24"
+        android:ems="10"
+        android:hint="   Enter Weight"
+        android:maxLength="10"
+        android:textColorHint="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/petheight" />
+
+    <EditText
+        android:id="@+id/petbreed"
+        android:layout_width="299dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="39dp"
+        android:digits="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890_-!@#$%^*()"
+        android:drawableLeft="@drawable/ic_baseline_explicit_24"
+        android:ems="10"
+        android:hint="   Enter Breed"
+        android:maxLength="10"
+        android:textColorHint="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/petweight" />
+
+    <Button
+        android:id="@+id/petsave"
+        android:layout_width="255dp"
+        android:layout_height="64dp"
+        android:text="Save Pet Details"
+        android:textAllCaps="false"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/petweight"
+        app:layout_constraintVertical_bias="0.527" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
